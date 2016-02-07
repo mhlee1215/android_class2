@@ -38,6 +38,7 @@ public class MyFragmentActivity extends FragmentActivity
         }
     }
 
+
     public void onArticleSelected(int position) {
         // The user selected the headline of an article from the HeadlinesFragment
         // Do something here to display that article
