@@ -7,7 +7,8 @@ import android.support.v4.app.FragmentTransaction;
 /**
  * Created by mhlee on 1/31/16.
  */
-public class MyFragmentActivity extends FragmentActivity implements HeadlinesFragment.OnHeadlineSelectedListener {
+public class MyFragmentActivity extends FragmentActivity
+        implements HeadlinesFragment.OnHeadlineSelectedListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
